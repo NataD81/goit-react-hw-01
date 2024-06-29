@@ -1,0 +1,64 @@
+.profile {
+  width: 500px;
+  margin: 0 auto;
+  border: 3px solid #111111;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  margin: 20px auto;
+  display: block;
+  background-color: #2e2c2c;
+}
+
+.profileInfo {
+  text-align: center;
+  padding: 20px;
+  border-color: #111111;
+  font-size: 32px;
+}
+
+.profileInfo p {
+  margin: 10px 0;
+}
+.profileInfoName {
+  font-weight: bold;
+}
+.profileInfoTag {
+  color: #888;
+}
+.profileStats {
+  display: flex;
+  background-color: #f3f3f3;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.profileStatsList span {
+  margin-top: 10px;
+}
+.profileStats li {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #a19e9e;
+}
+
+.profileStats span {
+  display: block;
+}
+
+.profileStats span:first-child {
+  font-size: 28px;
+  color: #888;
+}
+
+.profileStats span:last-child {
+  font-size: 32px;
+  font-weight: bold;
+}
